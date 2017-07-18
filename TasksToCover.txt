@@ -1,0 +1,108 @@
+Conceptual Question:
+
+1. Output of 
+
+int x=10;  
+System.out.println(x++);
+System.out.println(++x);
+System.out.println(x--);
+System.out.println(--x);
+
+2. Output of 
+
+int a=10;  
+int b=10;  
+System.out.println(a++ + ++a);  
+System.out.println(b++ + b++);
+
+
+3. Output of
+
+int a=10;  
+int b=-10;  
+boolean c=true;  
+boolean d=false;  
+System.out.println(~a); 
+System.out.println(~b); 
+System.out.println(!c);
+System.out.println(!d);
+
+4. Output of
+
+System.out.println(10<<2);
+System.out.println(10<<3);
+System.out.println(20<<2);
+System.out.println(15<<4);
+
+5. Output of
+
+System.out.println(10>>2); 
+System.out.println(20>>2); 
+System.out.println(20>>3);
+
+6. Output of
+
+	
+    System.out.println(20>>2);  
+    System.out.println(20>>>2);  
+    System.out.println(-20>>2);  
+    System.out.println(-20>>>2);   
+	
+	
+7. Output of
+
+int a=10;  
+int b=5;  
+int c=20;  
+System.out.println(a<b&&a++<c);  
+System.out.println(a);  
+System.out.println(a<b&a++<c);  
+System.out.println(a);
+
+8. Output of
+
+int a=10;  
+int b=5;  
+int c=20;  
+System.out.println(a>b||a<c);//true || true = true  
+System.out.println(a>b|a<c);//true | true = true  
+//|| vs |  
+System.out.println(a>b||a++<c);//true || true = true  
+System.out.println(a);//10 because second condition is not checked  
+System.out.println(a>b|a++<c);//true | true = true  
+System.out.println(a);//11 because second condition is checked  
+}}  
+
+9. Output of
+
+int a=2;  
+int b=5;  
+int min=(a<b)?a:b;  
+System.out.println(min);  
+
+10. Output of 
+
+int a=10;  
+a+=3;
+System.out.println(a);  
+a-=4;
+System.out.println(a);  
+a*=2;  
+System.out.println(a);  
+a/=2;  
+System.out.println(a);  
+
+11. Output of
+
+short a=10;  
+short b=10;  
+a=a+b; 
+System.out.println(a);  
+
+
+
+
+
+
+
+
